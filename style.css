@@ -15,7 +15,7 @@ body { background: #BBBBBB; }
 h1 {font-size: 60px; }
 h2 {font-size: 48px; }
 h3 {font-size: 36px; }
-p {font-size: 20px;}
+p {font-size: 18px;}
 
 /* NAVBAR */
 .navbar { 
@@ -94,6 +94,21 @@ nav ul li { margin-right: 10px; }
 	margin: 0px;
 }
 
+.socials {
+	margin-top: 20px;
+}
+
+.socials img {
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 50%;
+}
+
+.socials .sites {
+	margin: 0px 25%;
+	display: flex;
+	justify-content: center;
+}
 
 
 
