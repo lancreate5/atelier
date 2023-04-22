@@ -1,0 +1,129 @@
+/* DEBUG START */
+* {border: 1px solid black;}
+/* DEBUG END */
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+}
+
+body { background: #BBBBBB; }
+h1 {font-size: 60px; }
+h2 {font-size: 48px; }
+h3 {font-size: 36px; }
+p {font-size: 20px;}
+
+/* NAVBAR */
+nav { 
+	margin: -10px 10% 20px;
+	font-size: 20px;
+	background: #FFFFFF;
+	justify-content: left;
+	align-items: center;
+	padding: 1px 0px;
+}
+
+.navItem,
+.delimiter {
+	font-weight: bold;
+}
+
+nav ul li { margin-right: 10px; }
+.delimiter { color: #BBBBBB; }
+
+/* SECTIONS */
+.profile,
+.devel,
+.imagine {
+	border-radius: 10px;
+	background: #FFFFFF;
+	margin: 0 10% 20px;
+}
+
+/* PROFILE */
+.profile {
+	display: flex;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+
+.profile img {
+	display: block;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.profile * { 
+}
+
+.about { flex: 1; }
+
+
+/* DEVEL */
+.devel {
+	align-items: center;
+	padding: 10px 10%;
+}
+
+
+.devel img {
+	display: block;
+	margin: 0px auto;
+	height: 240px;
+}
+
+.devel * {
+	text-align: center;
+	margin: 0px;
+}
+
+
+/* IMAGINE */
+.imagine {
+	display: flex;
+	flex-direction: column;
+}
+
+.imagine h2 {
+	text-align: center;
+	margin: 20px auto 0px;
+}
+
+.imagine img {
+	height: 240px;
+}
+
+.imagine .split {
+	display: flex;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.split * {
+	flex: 1;
+	text-align: center;
+}
+
+.split img {
+	display: block;
+}
+
+.drawing *,
+.story * {
+	margin: 5px auto;
+}
+
+.split p { font-size: 16px; }
+
+.button {
+	background: #BBBBBB;
+	text-align: center;
+	width: 100px;
+	margin: 5px auto;
+}
