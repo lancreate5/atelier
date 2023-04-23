@@ -17,6 +17,8 @@ h2 {font-size: 48px; }
 h3 {font-size: 36px; }
 p {font-size: 18px;}
 
+
+
 /* NAVBAR */
 .navbar { 
 	display: flex;
@@ -43,20 +45,15 @@ p {font-size: 18px;}
 nav ul li { margin-right: 10px; }
 .delimiter { color: #BBBBBB; }
 
+
+
 /* SECTIONS */
-#profile,
-#devel,
-#imagine {
-	border-radius: 10px;
-	background: #FFFFFF;
-	margin: 0 10% 20px;
-	padding: 20px 10%;
-}
-
-
 .mainSect {
+	background: #FFFFFF;
+	padding: 30px 10%;
+	border-radius: 10px;
 	align-items: center;
-	margin: 0px 10px;
+	margin: 0px 10% 20px;
 }
 
 .mainSect img {
@@ -70,9 +67,11 @@ nav ul li { margin-right: 10px; }
 	display: flex;
 }
 
-.about { flex: 1; }
 .about *,
 .content * {margin: 0px;}
+.about { flex: 1; }
+
+
 
 /* DEVEL */
 #devel img { margin: 0px auto; }
@@ -93,15 +92,14 @@ nav ul li { margin-right: 10px; }
 	gap: 10px;
 }
 
-.split .story,
-.split .drawing {
+.story,
+.drawing {
 	flex: 1;
 	flex-basis: 0;
 	text-align: center;
 }
 
-.drawing .content,
-.story .content {
+.content {
 	margin: 5px auto;
 }
 
