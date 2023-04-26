@@ -33,7 +33,10 @@ hr { border: 1px solid black; }
 			margin-bottom: 0px;
 		}
 
-		.brief .desc { margin-top: -5px; }
+		.brief .desc { 
+			margin-top: -5px; 
+			font-style: italic;
+		}
 		.brief .quote { 
 			margin-top: 10px; 
 			font-style: italic; 
@@ -62,7 +65,7 @@ hr { border: 1px solid black; }
 			flex: 1; 
 			text-align: center;
 		}
-		.pfp-portrait :last-child { margin-bottom: 0px; }
+		.pfp-portrait :last-child { margin: 0px; }
 	
 	.alias {
 		margin-top: 20px;
@@ -91,7 +94,7 @@ hr { border: 1px solid black; }
 		border-radius: 10px;
 	}
 		.palette {
-			height: 50px;
+			height: 30px;
 			width: content-fit;
 			display: inline-flex;
 			flex-direction: row;
@@ -107,8 +110,8 @@ hr { border: 1px solid black; }
 				flex-direction: row;
 			}
 				.color * {
-					height: 50px;
-					width: 50px;
+					height: 30px;
+					width: 30px;
 				}
 					.c1 { background: #32AA7A; }
 					.c2 { background: #EF4747; }
@@ -119,8 +122,8 @@ hr { border: 1px solid black; }
 				gap: 0px;
 			}
 				.neutral * {
-					height: 25px;
-					width: 25px;
+					height: 15px;
+					width: 15px;
 					margin-bottom: 0px;
 				}
 					.n1 { background: #686868; }
@@ -128,22 +131,26 @@ hr { border: 1px solid black; }
 
 /* CONTENT */
 .content {
-	background: #EEEEEE;
+	background: #FFFFFF;
 	border-radius: 0 0 10px 10px;
 }
 	/* PROFILE-NAV */
-	.content-navbar {
-		background: #FFFFFF;
+	.content-nav {
+		background: #EEEEEE;
 		border-radius: 10px;
 		display: flex;
-		padding: 10px 0px;
+		padding-left: 0px;
 		margin: 0px;
 		border-radius: 0;
-		border-bottom: 1px solid black;
 	}
-		.content-navbar * {
+		.content-nav * {
+			padding: 10px 0px;
 			text-align: center;
 			flex: 1;
+		}
+		
+		.content .default {
+			background: #FFFFFF;
 		}
 
 	.content-entries {
@@ -200,7 +207,10 @@ hr { border: 1px solid black; }
 				gap: 15px;
 				padding: 0px;
 			}
-				.nav-right a {
+			.right-nav {
+				margin-bottom: 10px;
+			}
+				.right-nav a {
 					color: #FFFFFF;
 				}
 
