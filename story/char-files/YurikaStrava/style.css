@@ -196,8 +196,8 @@ hr { border: 1px solid black; }
 			.nav-right ul {
 				display: inline-flex;
 				flex-direction: row;
-				gap: 20px;
 				margin-top: 0px;
+				gap: 15px;
 				padding: 0px;
 			}
 				.nav-right a {
